@@ -1,0 +1,1 @@
+export const dummyData = ["Option 1", "Option 2", "Option 3", "Option 4", "Option 5", "Additional option with very long text to see how it looks in the UI Lorem Ipsum spiritu santi" ]
