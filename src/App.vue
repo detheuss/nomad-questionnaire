@@ -10,6 +10,8 @@
 
     <!-- Slider -->
     <Slider />
+    <Slider />
+    <Slider />
     <!-- Vertical single select -->
   </div>
 </template>
@@ -36,11 +38,17 @@ html {
 }
 #app {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: $base-black;
-  max-width: $mobile-item-max-width;
-  @media (min-width: $desktop) {
-    max-width: $desktop-item-max-width;
-  }
+  max-width: 100vw;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  // @media (min-width: $desktop) {
+  //   max-width: $desktop-item-max-width;
+  // }
 }
 
 h4 {
